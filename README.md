@@ -171,13 +171,14 @@ Ejemplo:
 
 -- > PLUGINS GIT
   
-1 - Muestra sobre la línea de código la fecha y el comentario del commit de los últimos cambios realizados.
+1 - Muestra el historial de cambios realizados sobre el archivo.
   
-![image](https://user-images.githubusercontent.com/54609399/137001016-22d48305-9732-4f75-8d46-5a0cae8cc2f3.png)
+Ejemplo: Le damos click al icono que está arriba a la derecha donde nos indica el historial de cambios
+  
+![image](https://user-images.githubusercontent.com/54609399/137030189-29940cc8-ee17-43b7-b64e-b5894fa9247b.png)
 
-Ejemplo:
-  
-![image](https://user-images.githubusercontent.com/54609399/137001085-72abaf67-b37a-4e3b-a486-c030e8b7ba41.png)
+![image](https://user-images.githubusercontent.com/54609399/137030460-857789d2-da26-4953-8de1-e6d191723f94.png)
+
 
 2 -  Permite ver el historial de los cambios realizados en un archivo.
   
@@ -186,12 +187,17 @@ Ejemplo:
 ![image](https://user-images.githubusercontent.com/54609399/137001243-ba249038-ac14-41c7-90aa-aae64ee34a91.png)
 
 ![image](https://user-images.githubusercontent.com/54609399/137001270-6eb583c8-9650-4f87-a049-26400824540b.png)
+  
+También nos permite ver sobre las líneas de código las fechas y comentarios del último cambio.
+  
+![image](https://user-images.githubusercontent.com/54609399/137030738-db8b79e4-d827-4cad-9192-8d9f689e56c2.png)
+
 
 3 - Ayuda a ver las ramas y los cambios hechos sobre ellas.
   
 ![image](https://user-images.githubusercontent.com/54609399/137001314-4d43846c-1cba-48ff-b113-e6d1653d31b9.png)
 
-Ejemplo: Nos ubicamos en la siguiente sección del VS Code y seleccionamos el archivo que necesitemos en este ejemplo el html y  damos click en la opción de arriba View Git Graph.
+Ejemplo: Nos ubicamos en la siguiente sección del VS Code y seleccionamos el archivo que necesitemos en este ejemplo el html y  damos click en la opción de arriba View Git Graph. Esta opción solo es visible si se han realizado cambios sobre los archivos.
   
 ![image](https://user-images.githubusercontent.com/54609399/137001565-44416671-597a-4a66-ae0e-76a1e3d21c45.png)
 
@@ -232,6 +238,11 @@ Si queremos formatear un código o todo un archivo debemos dar clic derecho sobr
 ![image](https://user-images.githubusercontent.com/54609399/137002606-eb8fb88e-a9e2-4b5d-9b03-9344c12183b8.png)
 
 ![image](https://user-images.githubusercontent.com/54609399/137002629-48b686d6-9e90-42fc-9cb3-b906e37a9c51.png)
+  
+También podemos agregar Prettier como el formato por defecto al código, nos ubicamos en las configuraciones y en la barra de búsqueda escribimos format, luego seleccionamos en Default Formater el Prettier - code formater.
+  
+![image](https://user-images.githubusercontent.com/54609399/137031505-943643e4-d498-4b54-9a46-831065e5ab4e.png)
+
 
 2 - Muestra la indentación al seleccionar el código.
   
