@@ -100,13 +100,176 @@ Ejemplo: Está lista la quiero encerrar en un <div>, para ello la seleccionas y 
 
 ![image](https://user-images.githubusercontent.com/54609399/136998972-0ba456f3-e8b2-46dc-9e6b-471187d09131.png)
 
+Como ya tenemos el plugin de Auto Rename Tag, si necesitamos cambiar el <div> por otro contenedor solo debemos cambiar el nombre de la primera etiqueta div y automáticamente se cambia la segunda.
+  
 --> PLUGINS CSS
   
+1 - Soporte de etiquetas y propiedades CSS, sirve para recomendar automáticamente propiedades.
 
+![image](https://user-images.githubusercontent.com/54609399/136999432-7907b39b-96ef-44a6-b943-88a08c8b082d.png)
 
+2 - Autocompletar y recomendar clases ya creadas en CSS
 
+![image](https://user-images.githubusercontent.com/54609399/136999515-748891a7-30c1-4ec5-89ee-a38163d07638.png)
 
+Ejemplo:  Tenemos esta clase en un archivo css llamada .pruebaCSS
 
+![image](https://user-images.githubusercontent.com/54609399/136999652-41565537-539b-4f5f-a50c-0abfc8c9b73c.png)
 
+y en el html nos debe recomendar que tenemos esa clase y la podemos usar.
 
+![image](https://user-images.githubusercontent.com/54609399/136999734-7660b5d3-5f29-451e-a77a-4d37e40658f9.png)
 
+Importante tener en cuenta que si no reconoce las clases toca dar clic en la siguiente opción del VS Code, para que el caché tome los cambios recientes hechos en los archivos CSS, esto se hace automáticamente pero en ocasiones el VS Code “olvida” recordarle al plugin que se han hecho cambios o ajustes en el css y esta opción nos ayuda a asegurarnos que al VS Code no se le “Olvide”.
+  
+![image](https://user-images.githubusercontent.com/54609399/137000007-dff5e807-e47a-4fe7-83a9-72caa5e93f47.png)
+
+03 - Ayuda tanto a CSS como SASS o Bootstrap a recomendar clases que podemos usar.
+
+![image](https://user-images.githubusercontent.com/54609399/137000142-01d6c9bc-3d72-4da7-8dad-29c7ee7bc7f1.png)
+
+Ejemplo: me recomienda los bg (BackGround) que puedo poner en las propiedades.
+
+![image](https://user-images.githubusercontent.com/54609399/137000263-88c33f2e-62f0-4569-b8d2-6ee0d4ea509f.png)
+  
+4 - Nos ayuda a ver que tienen por dentro las clases CSS presionando Ctrl sostenido y ubicar el cursor sobre la clase, también  a dirigirnos a ellas presionando Ctrl + Click izquierdo.
+  
+![image](https://user-images.githubusercontent.com/54609399/137000384-585a4915-3029-4104-9217-bd8f6679f873.png)
+
+Ejemplo:
+  
+![image](https://user-images.githubusercontent.com/54609399/137000440-dd48c3e4-98e2-491d-b5eb-7c3676214668.png)
+
+5 - Para los transform de compatibilidad con navegadores.
+  
+![image](https://user-images.githubusercontent.com/54609399/137000522-7daffeca-922d-4407-bd71-4f9dc3b6c091.png)
+
+Ejemplo: Al escribir transform y seleccionarlo nos crea automáticamente las líneas de cada navegador para su compatibilidad.
+
+![image](https://user-images.githubusercontent.com/54609399/137000648-f93aebc3-f0fc-4b57-8662-eaf8be11240b.png)
+
+![image](https://user-images.githubusercontent.com/54609399/137000671-e49684e0-a1c5-4e2a-be23-3f1e8fe1921e.png)
+
+--> PLUGINS BOOTSTRAP
+
+1 - Recomendar y autocompletar clases de Bootstrap 4.
+
+![image](https://user-images.githubusercontent.com/54609399/137000770-76b6b083-5b15-4201-8237-e6193f5f5fcd.png)
+
+2 - Recomendar y autocompletar clases de Bootstrap 5.
+  
+![image](https://user-images.githubusercontent.com/54609399/137000825-9cc7da99-337a-4029-acd8-effadb6a9909.png)
+
+Ejemplo:
+
+![image](https://user-images.githubusercontent.com/54609399/137000883-ce050bc5-474a-4248-8bf3-46a1d5c0c27c.png)
+
+-- > PLUGINS GIT
+  
+1 - Muestra sobre la línea de código la fecha y el comentario del commit de los últimos cambios realizados.
+  
+![image](https://user-images.githubusercontent.com/54609399/137001016-22d48305-9732-4f75-8d46-5a0cae8cc2f3.png)
+
+Ejemplo:
+  
+![image](https://user-images.githubusercontent.com/54609399/137001085-72abaf67-b37a-4e3b-a486-c030e8b7ba41.png)
+
+2 -  Permite ver el historial de los cambios realizados en un archivo.
+  
+![image](https://user-images.githubusercontent.com/54609399/137001169-3bcb37ea-383e-47c1-8761-754aa4e58adc.png)
+
+![image](https://user-images.githubusercontent.com/54609399/137001243-ba249038-ac14-41c7-90aa-aae64ee34a91.png)
+
+![image](https://user-images.githubusercontent.com/54609399/137001270-6eb583c8-9650-4f87-a049-26400824540b.png)
+
+3 - Ayuda a ver las ramas y los cambios hechos sobre ellas.
+  
+![image](https://user-images.githubusercontent.com/54609399/137001314-4d43846c-1cba-48ff-b113-e6d1653d31b9.png)
+
+Ejemplo: Nos ubicamos en la siguiente sección del VS Code y seleccionamos el archivo que necesitemos en este ejemplo el html y  damos click en la opción de arriba View Git Graph.
+  
+![image](https://user-images.githubusercontent.com/54609399/137001565-44416671-597a-4a66-ae0e-76a1e3d21c45.png)
+
+![image](https://user-images.githubusercontent.com/54609399/137001598-e66801b7-33a6-48c8-8d8d-e058950bb5b4.png)
+
+-- > PLUGINS JAVASCRIPT
+  
+1 - Ayuda con comandos para sacar rápidamente código JavaScript bajo el estándar ECMAScript6, la lista de comandos se puede ver en la misma página oficial del plugin.
+  
+https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
+  
+![image](https://user-images.githubusercontent.com/54609399/137002009-e4400b7a-f2d8-444a-b090-068efa74a73a.png)
+
+Ejemplo:
+  
+![image](https://user-images.githubusercontent.com/54609399/137002074-302c3ace-9c01-49cc-8c01-68889b0c2f22.png)
+
+![image](https://user-images.githubusercontent.com/54609399/137002097-e496decd-2821-486d-844b-c86fb9bf7f81.png)
+
+2 -  Asigna un color para cada [ ],  { } o ( ) ubicado en el código y permite saber dónde inicia y dónde termina, VS Code ya tiene una opción interna para esto pero sigue siendo más completa la versión del plugin.
+
+No confundir con Bracket Pair Colorizer, se debe instalar es la que tiene el número 2.
+
+![image](https://user-images.githubusercontent.com/54609399/137002255-49949c0e-c8be-4afe-b71c-2c199c404197.png)
+
+Ejemplo:
+  
+![image](https://user-images.githubusercontent.com/54609399/137002335-14d7afa7-bfb7-4021-9f67-8e423ece85bc.png)
+
+-- > PLUGINS PARA ESTÁNDARES DE PROGRAMACIÓN Y BUENAS PRÁCTICAS
+
+1  - El mejor plugin para formatear el código con estándares buenas prácticas de JavaScript, HTML, CSS, NodeJS , Angular y muchos más.
+
+![image](https://user-images.githubusercontent.com/54609399/137002451-d1ee9720-85b6-4a40-9791-5fe4e5956f71.png)
+
+Si queremos formatear un código o todo un archivo debemos dar clic derecho sobre el código o algún espacio sin código en el archivo y seleccionar la siguiente opción.
+  
+![image](https://user-images.githubusercontent.com/54609399/137002606-eb8fb88e-a9e2-4b5d-9b03-9344c12183b8.png)
+
+![image](https://user-images.githubusercontent.com/54609399/137002629-48b686d6-9e90-42fc-9cb3-b906e37a9c51.png)
+
+2 - Muestra la indentación al seleccionar el código.
+  
+![image](https://user-images.githubusercontent.com/54609399/137002705-1af3c917-dd4e-49e2-a844-d4eb29212dc8.png)
+
+Ejemplo:
+  
+![image](https://user-images.githubusercontent.com/54609399/137002737-9e16c00d-83bc-4a5e-b15c-5881d0be15ee.png)
+
+3 - Identificar espacios innecesarios sobre el código.
+  
+![image](https://user-images.githubusercontent.com/54609399/137002810-be01c8ea-6a7a-4d28-b8a1-5ecea3dc0126.png)
+  
+Ejemplo: Sobre las líneas que se hagan espacios se identificarán con color rojo.
+
+![image](https://user-images.githubusercontent.com/54609399/137002888-74587c67-3529-40e8-abbf-6eebae865bca.png)
+
+4 - Optimizar tamaños de archivos con minify, esto es comprimir el código y por ende el tamaño del archivo.
+  
+![image](https://user-images.githubusercontent.com/54609399/137003002-56edf4da-9e52-45ba-a615-1d5d75bd649c.png)
+
+Ejemplo:
+  
+![image](https://user-images.githubusercontent.com/54609399/137003150-94577754-c4a3-4cbc-8961-9a8348dc09ee.png)
+
+![image](https://user-images.githubusercontent.com/54609399/137003179-d9223aba-e195-41a1-b25e-2c97ffb5082a.png)
+
+Esto nos genera un nuevo archivo con .main, el cual contiene el mismo código pero comprimido (minificado). el cual hace la misma función del archivo real pero con menos tamaño, sirve mucho para subir a un Hosting menos peso en el proyecto.
+  
+![image](https://user-images.githubusercontent.com/54609399/137003349-ead2ca8f-eddb-4b2a-b1e8-effafc1cde18.png)
+
+-- > PLUGINS EXTRA
+  
+1 - Asigna iconos no solo archivos sino también a carpetas identificando que hace cada una.
+  
+![image](https://user-images.githubusercontent.com/54609399/137003414-06ae54d2-a932-4eeb-a5cd-a3c391799f87.png)
+  
+Ejemplo:
+
+![image](https://user-images.githubusercontent.com/54609399/137003457-d6423e1f-129f-4688-b5b2-38e8c3e01ff2.png)
+
+2 - A preferencia de cada quien.. el tema que guste.
+  
+Ejemplo: Mi favorito es un tema retro neon SynthWave ‘84
+  
+![image](https://user-images.githubusercontent.com/54609399/137003586-9f2bfb67-0e64-4c85-a9c0-36ae38c80214.png)
