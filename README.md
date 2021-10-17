@@ -173,6 +173,9 @@ Ejemplo:
   
 1 - Muestra el historial de cambios realizados sobre el archivo.
   
+![image](https://user-images.githubusercontent.com/54609399/137605392-ae68bf77-bd45-49b2-b2ab-81b7768c2cde.png)
+
+  
 Ejemplo: Le damos click al icono que está arriba a la derecha donde nos indica el historial de cambios
   
 ![image](https://user-images.githubusercontent.com/54609399/137030189-29940cc8-ee17-43b7-b64e-b5894fa9247b.png)
