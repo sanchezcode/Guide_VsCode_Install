@@ -5,7 +5,7 @@ Contenido:
 - CONFIGURACIONES BÁSICAS
 - PLUGINS UTILES PARA DESARROLLO WEB
 
-**** INSTLACIÓN VISUAL STUDIO CODE ***
+**** INSTLACIÓN VISUAL STUDIO CODE ****
 
 1 - Descargar e instalar VS Code desde su página oficial https://code.visualstudio.com/
 
