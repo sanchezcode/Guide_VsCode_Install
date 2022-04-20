@@ -2,6 +2,7 @@ GUÍA VISUAL STUDIO CODE EN WINDOWS
 
 Contenido:
 - INSTLACIÓN VISUAL STUDIO CODE EN WINDOWS
+- NSTLACIÓN VISUAL STUDIO CODE EN LINUX
 - CONFIGURACIONES BÁSICAS
 - PLUGINS UTILES PARA DESARROLLO WEB
 
@@ -34,6 +35,27 @@ Contenido:
 ![image](https://user-images.githubusercontent.com/54609399/136994555-0cba2bb0-12b3-4466-ac6b-ee37dd7e4f3f.png)
 
 Con estos pasos concluimos el proceso de instalación, ahora procedemos hacer unas configuraciones iniciales.
+
+**** INSTALACIÓN EN LINUX ****
+
+1 - Nos ubicamos en la pagina oficial de VS Code
+
+https://code.visualstudio.com/
+
+Descargamos la version .deb (Ubuntu)
+
+![image](https://user-images.githubusercontent.com/54609399/164291974-2b59399b-da71-4ce3-bba3-95a05c062c5b.png)
+
+2 - Procedemos a instalar el ejecutable
+
+![image](https://user-images.githubusercontent.com/54609399/164292126-34c20b7f-2b45-4135-862b-a6114610e278.png)
+
+![image](https://user-images.githubusercontent.com/54609399/164292281-97ca8e40-de0b-4fda-8f75-4b190166553e.png)
+
+3 - Buscamos y abrimos el VS Code
+
+![image](https://user-images.githubusercontent.com/54609399/164292706-51558f42-e97d-4716-a10f-86c74f05cc73.png)
+
 
 **** CONFIGURACIONES BÁSICAS ****
 
