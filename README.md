@@ -1,12 +1,12 @@
-GUÍA VISUAL STUDIO CODE EN WINDOWS
+GUÍA INSTALACIÓN Y CONFIGURACION DE VISUAL STUDIO CODE EN WINDOWS Y LINUX
 
 Contenido:
-- INSTLACIÓN VISUAL STUDIO CODE EN WINDOWS
-- NSTLACIÓN VISUAL STUDIO CODE EN LINUX
+- INSTALACIÓN EN WINDOWS 11
+- INSTALACIÓN EN LINUX UBUNTU 20.04.4 LTS
 - CONFIGURACIONES BÁSICAS
-- PLUGINS UTILES PARA DESARROLLO WEB
+- PLUGINS ÚTILES PARA DESARROLLO WEB
 
-**** INSTLACIÓN VISUAL STUDIO CODE ****
+**** INSTALACIÓN EN WINDOWS 11 ****
 
 1 - Descargar e instalar VS Code desde su página oficial https://code.visualstudio.com/
 
@@ -36,7 +36,10 @@ Contenido:
 
 Con estos pasos concluimos el proceso de instalación, ahora procedemos hacer unas configuraciones iniciales.
 
-**** INSTALACIÓN EN LINUX ****
+_____________________________________
+
+**** INSTALACIÓN EN LINUX UBUNTU 20.04.4 LTS ****
+_____________________________________
 
 1 - Nos ubicamos en la pagina oficial de VS Code
 
