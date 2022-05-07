@@ -98,6 +98,10 @@ Ahora si procedemos a hacer el ajuste de Word Wrap, primero debemos escribir wra
 
 ![image](https://user-images.githubusercontent.com/54609399/136996317-4d2c98af-3007-4069-bf22-37598fb00a6c.png)
 
+3 - Bracket pair
+
+![image](https://user-images.githubusercontent.com/54609399/167238211-6e86027e-54f6-4c99-b0af-c60136b69c6b.png)
+
 **** PLUGINS ****
 
 1 - Para instalar los plugins debemos ubicarnos en la siguiente sección del VS Code
