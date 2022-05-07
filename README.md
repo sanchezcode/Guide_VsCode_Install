@@ -3,10 +3,13 @@ GUÍA INSTALACIÓN Y CONFIGURACION DE VISUAL STUDIO CODE EN WINDOWS Y LINUX
 Contenido:
 - INSTALACIÓN EN WINDOWS 11
 - INSTALACIÓN EN LINUX UBUNTU 20.04.4 LTS
-- CONFIGURACIONES BÁSICAS
+- CONFIGURACIONES INICIALES Y BÁSICAS
 - PLUGINS ÚTILES PARA DESARROLLO WEB
 
+_____________________________________
+
 **** INSTALACIÓN EN WINDOWS 11 ****
+_____________________________________
 
 1 - Descargar e instalar VS Code desde su página oficial https://code.visualstudio.com/
 
@@ -41,26 +44,43 @@ _____________________________________
 **** INSTALACIÓN EN LINUX UBUNTU 20.04.4 LTS ****
 _____________________________________
 
-1 - Nos ubicamos en la pagina oficial de VS Code
+1 - Nos ubicamos en la pagina oficial de Visual Studio Code
 
 https://code.visualstudio.com/
 
-Descargamos la version .deb (Ubuntu)
+2 - Descargamos la version .deb (Debian/Ubuntu)
 
-![image](https://user-images.githubusercontent.com/54609399/164291974-2b59399b-da71-4ce3-bba3-95a05c062c5b.png)
+![image](https://user-images.githubusercontent.com/54609399/167237335-2f2e05f0-bfc2-471a-96a3-815895e99420.png)
 
-2 - Procedemos a instalar el ejecutable
+3 - Presionamos doble click en el archivo .deb descargado
 
-![image](https://user-images.githubusercontent.com/54609399/164292126-34c20b7f-2b45-4135-862b-a6114610e278.png)
+![image](https://user-images.githubusercontent.com/54609399/167237394-d3e934ea-a038-4e98-8fd7-302efb68fd50.png)
 
-![image](https://user-images.githubusercontent.com/54609399/164292281-97ca8e40-de0b-4fda-8f75-4b190166553e.png)
+4 - Esto abrira Ubuntu Software donde presionamos click en instalar 
 
-3 - Buscamos y abrimos el VS Code
+![image](https://user-images.githubusercontent.com/54609399/167237473-931cd4ad-156b-436c-a83a-3549851d69b4.png)
 
-![image](https://user-images.githubusercontent.com/54609399/164292706-51558f42-e97d-4716-a10f-86c74f05cc73.png)
+5 - De esta manera confirmamos que ya quedo instalado:
+
+![image](https://user-images.githubusercontent.com/54609399/167237546-7fb75bb3-092d-4000-a0ef-3de0c7eb0766.png)
+ 
+6 - Buscamos en las aplicaciónes de Ubuntu el Visual Studio Code
+
+![image](https://user-images.githubusercontent.com/54609399/167237646-883ba341-cdce-4e46-a624-406e3958cabe.png)
+
+![image](https://user-images.githubusercontent.com/54609399/167237666-a2bef6e1-e5d0-4053-b1c6-086ede07252c.png)
+
+7 - Al ejecutar el Visual Studio Code nos encontramos con la siguiente interfaz la cual nos indica que la instalación quedo completa y ya podemos hacer uso de este gran editor de código
+
+![image](https://user-images.githubusercontent.com/54609399/167237729-6ad76263-5b5c-4fe5-860c-87196fcc0ff8.png)
 
 
-**** CONFIGURACIONES BÁSICAS ****
+_____________________________________
+
+**** CONFIGURACIONES INICIALES Y BÁSICAS ****
+_____________________________________
+
+
 
 1 - Iniciaremos configurando el Word Wrap, el cual hace que se aplique el estándar de no superar los 80 caracteres, y que el código se adapte al tamaño de la interfaz del VS code.
 
