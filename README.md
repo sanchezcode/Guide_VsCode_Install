@@ -102,7 +102,10 @@ Ahora si procedemos a hacer el ajuste de Word Wrap, primero debemos escribir wra
 
 ![image](https://user-images.githubusercontent.com/54609399/167238211-6e86027e-54f6-4c99-b0af-c60136b69c6b.png)
 
-**** PLUGINS ****
+_____________________________________
+
+**** PLUGINS UTILES PARA DESARROLLO WEB ****
+_____________________________________
 
 1 - Para instalar los plugins debemos ubicarnos en la siguiente sección del VS Code
 
@@ -130,6 +133,9 @@ Ejemplo: Al editar la etiqueta que abre automáticamente se va cambiando tambié
 
 ![image](https://user-images.githubusercontent.com/54609399/136998016-3a4324d6-562c-44a3-8914-b68e06a5ad10.png)
 
+![image](https://user-images.githubusercontent.com/54609399/167238312-65e1171f-b440-4da5-a80f-66ba546fcfbd.png)
+
+
 Ejemplo: Muestra los archivos siempre después de poner un ./ o un ../ dependiendo del caso, VS Code ya tiene esto por defecto pero el plugin ayuda en esta búsqueda de archivos, en caso tal que el VS Code no muestre las rutas a buscar.
 
 ![image](https://user-images.githubusercontent.com/54609399/136998268-58604a91-53b9-4892-9911-7fc6f9f36cd1.png)
@@ -137,6 +143,9 @@ Ejemplo: Muestra los archivos siempre después de poner un ./ o un ../ dependien
 4 - Abrir los HTML en el navegador que le digamos sin tener que ir a la carpeta y ejecutar el archivo de manera manual.
 
 ![image](https://user-images.githubusercontent.com/54609399/136998337-5b4ee743-2d44-4541-b944-f8709970aa65.png)
+
+![image](https://user-images.githubusercontent.com/54609399/167238337-56f7e781-6da7-485d-ab84-af5d9e95b1e3.png)
+
 
 Ejemplo: Al darle click derecho al archivo HTML me permite ir a la opción de abrir en el navegador por defecto o de seleccionar cualquiera de los navegadores que tenga instalado en el equipo, también nos muestra los que no tenemos y pueden funcionar.
 
@@ -194,21 +203,16 @@ Ejemplo:
   
 ![image](https://user-images.githubusercontent.com/54609399/137000440-dd48c3e4-98e2-491d-b5eb-7c3676214668.png)
 
-5 - Para los transform de compatibilidad con navegadores.
-  
-![image](https://user-images.githubusercontent.com/54609399/137000522-7daffeca-922d-4407-bd71-4f9dc3b6c091.png)
 
-Ejemplo: Al escribir transform y seleccionarlo nos crea automáticamente las líneas de cada navegador para su compatibilidad.
-
-![image](https://user-images.githubusercontent.com/54609399/137000648-f93aebc3-f0fc-4b57-8662-eaf8be11240b.png)
-
-![image](https://user-images.githubusercontent.com/54609399/137000671-e49684e0-a1c5-4e2a-be23-3f1e8fe1921e.png)
 
 --> PLUGINS BOOTSTRAP
 
 1 - Recomendar y autocompletar clases de Bootstrap 4.
 
 ![image](https://user-images.githubusercontent.com/54609399/137000770-76b6b083-5b15-4201-8237-e6193f5f5fcd.png)
+ 
+ ![image](https://user-images.githubusercontent.com/54609399/167238503-c8d1493d-e3eb-415e-8ee5-76887f072ced.png)
+
 
 2 - Recomendar y autocompletar clases de Bootstrap 5.
   
@@ -269,15 +273,13 @@ Ejemplo:
 
 ![image](https://user-images.githubusercontent.com/54609399/137002097-e496decd-2821-486d-844b-c86fb9bf7f81.png)
 
-2 -  Asigna un color para cada [ ],  { } o ( ) ubicado en el código y permite saber dónde inicia y dónde termina, VS Code ya tiene una opción interna para esto pero sigue siendo más completa la versión del plugin.
+ si usan babel
+ 
+ ![image](https://user-images.githubusercontent.com/54609399/167238710-81f592ba-f2ac-44e3-ad59-015560503a76.png)
 
-No confundir con Bracket Pair Colorizer, se debe instalar es la que tiene el número 2.
+ 
+ 
 
-![image](https://user-images.githubusercontent.com/54609399/137002255-49949c0e-c8be-4afe-b71c-2c199c404197.png)
-
-Ejemplo:
-  
-![image](https://user-images.githubusercontent.com/54609399/137002335-14d7afa7-bfb7-4021-9f67-8e423ece85bc.png)
 
 -- > PLUGINS PARA ESTÁNDARES DE PROGRAMACIÓN Y BUENAS PRÁCTICAS
 
@@ -295,6 +297,7 @@ También podemos agregar Prettier como el formato por defecto al código, nos ub
   
 ![image](https://user-images.githubusercontent.com/54609399/137031505-943643e4-d498-4b54-9a46-831065e5ab4e.png)
 
+ los dos checks tambien
 
 2 - Muestra la indentación al seleccionar el código.
   
