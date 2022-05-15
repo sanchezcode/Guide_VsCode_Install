@@ -118,19 +118,23 @@ _____________________________________
 
 1 - Para instalar los plugins debemos ubicarnos en la siguiente sección del VS Code
 
-![image](https://user-images.githubusercontent.com/54609399/136997259-feace1b8-db09-4dc2-803d-1356066a1727.png)
+![image](https://user-images.githubusercontent.com/54609399/168491551-6ee61227-96b6-4b5d-bcb7-244b1c2517f5.png)
 
 --> PLUGINS HTML
 
-1 - Cuando creas etiquetas te ayuda a cerrarlas automáticamente, sin que se te escape alguna etiqueta de cierre que luego te pueda causar un error de maquetado.
+1 - Cuando creas etiquetas te ayuda a cerrarlas automáticamente, sin que se te escape alguna etiqueta de cierre que luego te pueda causar un error en tu maquetación.
 
-![image](https://user-images.githubusercontent.com/54609399/136997467-ce4927d2-9c0f-474b-bcd8-9d0de9f7f56d.png)
+Escribimos en la barra de busqueda: Auto Close Tag
+
+![image](https://user-images.githubusercontent.com/54609399/168491637-984fe129-7ba2-4ecd-bfee-5faf3ac5e0a9.png)
 
 Ejemplo: El div se creo solo la inicial y automáticamente se crea la de cierre (Esto ya lo tiene VS Code pero no cuando ya hay etiquetas de intermedio, este plugin ayuda en cualquier de los casos)
 
 ![image](https://user-images.githubusercontent.com/54609399/136997492-f89492f1-3eba-4810-8f87-07c234b18998.png)
 
 2 - Cuando cambias el nombre de una de las etiquetas la otra automáticamente se renombra también.
+
+Escribimos en la barra de busqueda: Auto Rename Tag
 
 ![image](https://user-images.githubusercontent.com/54609399/136997776-4f728e64-e773-4e3c-bf0a-ff4d6e06c10a.png)
 
@@ -139,6 +143,8 @@ Ejemplo: Al editar la etiqueta que abre automáticamente se va cambiando tambié
 ![image](https://user-images.githubusercontent.com/54609399/136997882-86566c8b-c671-443d-a8dc-451bbe401fd7.png)
 
 3 - Ayuda en la búsqueda de rutas locales como carpetas y archivos que se tienen en el proyecto.
+
+Escribimos en la barra de busqueda: Path Intellisense
 
 ![image](https://user-images.githubusercontent.com/54609399/136998016-3a4324d6-562c-44a3-8914-b68e06a5ad10.png)
 
@@ -151,9 +157,9 @@ Ejemplo: Muestra los archivos siempre después de poner un ./ o un ../ dependien
 
 4 - Abrir los HTML en el navegador que le digamos sin tener que ir a la carpeta y ejecutar el archivo de manera manual.
 
-![image](https://user-images.githubusercontent.com/54609399/136998337-5b4ee743-2d44-4541-b944-f8709970aa65.png)
+Escribimos en la barra de busqueda: open in browser
 
-![image](https://user-images.githubusercontent.com/54609399/167238337-56f7e781-6da7-485d-ab84-af5d9e95b1e3.png)
+![image](https://user-images.githubusercontent.com/54609399/136998337-5b4ee743-2d44-4541-b944-f8709970aa65.png)
 
 
 Ejemplo: Al darle click derecho al archivo HTML me permite ir a la opción de abrir en el navegador por defecto o de seleccionar cualquiera de los navegadores que tenga instalado en el equipo, también nos muestra los que no tenemos y pueden funcionar.
@@ -162,7 +168,13 @@ Ejemplo: Al darle click derecho al archivo HTML me permite ir a la opción de ab
 
 ![image](https://user-images.githubusercontent.com/54609399/136998536-f61cb639-9c9e-4128-ac9c-f194722c6c95.png)
 
+EXTRA: si solo trabjas con HTML+CSS+JS puedes instalar live server el cual simula un servidor local para ejecutar en tiempo real los cambios que hagas en el codigo, ten encuenta que esdte plugin tiene algunos bugs como que a veces no recarga los cambios y tambien puede interferir con otros puertos o servidores que se esten ejecutando en local si trabajas con algun stack de programacion (java y sus servers, Angular, React etc..)
+
+![image](https://user-images.githubusercontent.com/54609399/167238337-56f7e781-6da7-485d-ab84-af5d9e95b1e3.png)
+
 5 - Para insertar bloque de código en un contenedor, seleccionando el bloque de código y presionando Ctrl + i, lo encierra en un DIV que luego podemos cambiar el nombre en caso tal de necesitar otra etiqueta.
+
+Escribimos en la barra de busqueda: html tag wrapper
 
 ![image](https://user-images.githubusercontent.com/54609399/136998767-6317c702-8de8-458e-b43d-0e6295a653ad.png)
 
@@ -177,11 +189,15 @@ Como ya tenemos el plugin de Auto Rename Tag, si necesitamos cambiar el <div> po
 --> PLUGINS CSS
   
 1 - Soporte de etiquetas y propiedades CSS, sirve para recomendar automáticamente propiedades.
+ 
+ Escribimos en la barra de busqueda: HTML CSS Support
 
 ![image](https://user-images.githubusercontent.com/54609399/136999432-7907b39b-96ef-44a6-b943-88a08c8b082d.png)
 
 2 - Autocompletar y recomendar clases ya creadas en CSS
 
+ Escribimos en la barra de busqueda: IntelliSense for CSS class names in HTML
+ 
 ![image](https://user-images.githubusercontent.com/54609399/136999515-748891a7-30c1-4ec5-89ee-a38163d07638.png)
 
 Ejemplo:  Tenemos esta clase en un archivo css llamada .pruebaCSS
@@ -196,7 +212,9 @@ Importante tener en cuenta que si no reconoce las clases toca dar clic en la sig
   
 ![image](https://user-images.githubusercontent.com/54609399/137000007-dff5e807-e47a-4fe7-83a9-72caa5e93f47.png)
 
-03 - Ayuda tanto a CSS como SASS o Bootstrap a recomendar clases que podemos usar.
+03 - Si usas Tailwidn y no bootstrap este plugin servira mucho
+ 
+ Escribimos en la barra de busqueda: Tailwind CSS IntelliSense
 
 ![image](https://user-images.githubusercontent.com/54609399/137000142-01d6c9bc-3d72-4da7-8dad-29c7ee7bc7f1.png)
 
@@ -205,26 +223,43 @@ Ejemplo: me recomienda los bg (BackGround) que puedo poner en las propiedades.
 ![image](https://user-images.githubusercontent.com/54609399/137000263-88c33f2e-62f0-4569-b8d2-6ee0d4ea509f.png)
   
 4 - Nos ayuda a ver que tienen por dentro las clases CSS presionando Ctrl sostenido y ubicar el cursor sobre la clase, también  a dirigirnos a ellas presionando Ctrl + Click izquierdo.
-  
+ 
+ Escribimos en la barra de busqueda: CSS Peek
+ 
 ![image](https://user-images.githubusercontent.com/54609399/137000384-585a4915-3029-4104-9217-bd8f6679f873.png)
 
 Ejemplo:
   
 ![image](https://user-images.githubusercontent.com/54609399/137000440-dd48c3e4-98e2-491d-b5eb-7c3676214668.png)
 
+completamos con:
+ 
+ Escribimos en la barra de busqueda: CSS Navigation
+ 
+ Nos ayuda a ir directamente al codigo CSS que estamos viendo en el HTML
+ 
+ ![image](https://user-images.githubusercontent.com/54609399/168492836-34059c10-8b53-4bf1-a55f-cd8cc8fba67c.png)
 
 
 --> PLUGINS BOOTSTRAP
 
 1 - Recomendar y autocompletar clases de Bootstrap 4.
+ 
+ Escribimos en la barra de busqueda: Bootstrap v4 Snippets
+ Escribimos en la barra de busqueda: Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
 
 ![image](https://user-images.githubusercontent.com/54609399/137000770-76b6b083-5b15-4201-8237-e6193f5f5fcd.png)
  
- ![image](https://user-images.githubusercontent.com/54609399/167238503-c8d1493d-e3eb-415e-8ee5-76887f072ced.png)
+![image](https://user-images.githubusercontent.com/54609399/167238503-c8d1493d-e3eb-415e-8ee5-76887f072ced.png)
 
 
 2 - Recomendar y autocompletar clases de Bootstrap 5.
-  
+
+ Escribimos en la barra de busqueda: Bootstrap v4 Snippets
+ Escribimos en la barra de busqueda: Bootstrap 5 & Font Awesome Snippets
+ 
+![image](https://user-images.githubusercontent.com/54609399/168492981-38ca2c32-a90c-4c32-9fcb-d4ee206ba1ac.png)
+ 
 ![image](https://user-images.githubusercontent.com/54609399/137000825-9cc7da99-337a-4029-acd8-effadb6a9909.png)
 
 Ejemplo:
@@ -234,6 +269,8 @@ Ejemplo:
 -- > PLUGINS GIT
   
 1 - Muestra el historial de cambios realizados sobre el archivo.
+ 
+  Escribimos en la barra de busqueda: Git History
   
 ![image](https://user-images.githubusercontent.com/54609399/137605392-ae68bf77-bd45-49b2-b2ab-81b7768c2cde.png)
 
@@ -246,6 +283,8 @@ Ejemplo: Le damos click al icono que está arriba a la derecha donde nos indica 
 
 
 2 -  Permite ver el historial de los cambios realizados en un archivo.
+ 
+ Escribimos en la barra de busqueda: GitLens
   
 ![image](https://user-images.githubusercontent.com/54609399/137001169-3bcb37ea-383e-47c1-8761-754aa4e58adc.png)
 
@@ -259,9 +298,17 @@ También nos permite ver sobre las líneas de código las fechas y comentarios d
 
 
 3 - Ayuda a ver las ramas y los cambios hechos sobre ellas.
+ 
+ Escribimos en la barra de busqueda: Git Graph
   
 ![image](https://user-images.githubusercontent.com/54609399/137001314-4d43846c-1cba-48ff-b113-e6d1653d31b9.png)
 
+ Si aun no has instalado GIT en tu equipo te saldra un erro como este
+
+![image](https://user-images.githubusercontent.com/54609399/168493111-8d0da25e-b7f7-4170-a57f-718a96daf1ab.png)
+
+ No te preocupes que al momento de instalar Git el plugin se soncroniza con el ejecutable de GIT
+ 
 Ejemplo: Nos ubicamos en la siguiente sección del VS Code y seleccionamos el archivo que necesitemos en este ejemplo el html y  damos click en la opción de arriba View Git Graph. Esta opción solo es visible si se han realizado cambios sobre los archivos.
   
 ![image](https://user-images.githubusercontent.com/54609399/137001565-44416671-597a-4a66-ae0e-76a1e3d21c45.png)
@@ -273,6 +320,8 @@ Ejemplo: Nos ubicamos en la siguiente sección del VS Code y seleccionamos el ar
 1 - Ayuda con comandos para sacar rápidamente código JavaScript bajo el estándar ECMAScript6, la lista de comandos se puede ver en la misma página oficial del plugin.
   
 https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
+ 
+  Escribimos en la barra de busqueda: JavaScript (ES6) code snippets
   
 ![image](https://user-images.githubusercontent.com/54609399/137002009-e4400b7a-f2d8-444a-b090-068efa74a73a.png)
 
@@ -282,18 +331,20 @@ Ejemplo:
 
 ![image](https://user-images.githubusercontent.com/54609399/137002097-e496decd-2821-486d-844b-c86fb9bf7f81.png)
 
- si usan babel
+ NOTA: si usan babel (Para quienes necesiten trasnformar su codigo moderno de Javascript a versiones viejas y compiladores antiguos)
+ 
+ Escribimos en la barra de busqueda: Babel JavaScript
  
  ![image](https://user-images.githubusercontent.com/54609399/167238710-81f592ba-f2ac-44e3-ad59-015560503a76.png)
 
- 
- 
 
 
 -- > PLUGINS PARA ESTÁNDARES DE PROGRAMACIÓN Y BUENAS PRÁCTICAS
 
 1  - El mejor plugin para formatear el código con estándares buenas prácticas de JavaScript, HTML, CSS, NodeJS , Angular y muchos más.
 
+ Escribimos en la barra de busqueda: Prettier - Code formatter
+ 
 ![image](https://user-images.githubusercontent.com/54609399/137002451-d1ee9720-85b6-4a40-9791-5fe4e5956f71.png)
 
 Si queremos formatear un código o todo un archivo debemos dar clic derecho sobre el código o algún espacio sin código en el archivo y seleccionar la siguiente opción.
@@ -302,14 +353,15 @@ Si queremos formatear un código o todo un archivo debemos dar clic derecho sobr
 
 ![image](https://user-images.githubusercontent.com/54609399/137002629-48b686d6-9e90-42fc-9cb3-b906e37a9c51.png)
   
-También podemos agregar Prettier como el formato por defecto al código, nos ubicamos en las configuraciones y en la barra de búsqueda escribimos format, luego seleccionamos en Default Formater el Prettier - code formater.
+ 
+RECOMENDADO: También podemos agregar Prettier como el formato por defecto al código, nos ubicamos en las configuraciones y en la barra de búsqueda escribimos format, luego seleccionamos en Default Formater el Prettier - code formater.
   
-![image](https://user-images.githubusercontent.com/54609399/137031505-943643e4-d498-4b54-9a46-831065e5ab4e.png)
+![image](https://user-images.githubusercontent.com/54609399/168493393-4511d0a8-bf2c-4d43-89ef-3eb29932bb04.png)
 
- los dos checks tambien
-
-2 - Muestra la indentación al seleccionar el código.
-  
+2 - Muestra la indentación al seleccionar el código por medio de colores.
+ 
+ Escribimos en la barra de busqueda: indent-rainbow
+ 
 ![image](https://user-images.githubusercontent.com/54609399/137002705-1af3c917-dd4e-49e2-a844-d4eb29212dc8.png)
 
 Ejemplo:
@@ -317,6 +369,8 @@ Ejemplo:
 ![image](https://user-images.githubusercontent.com/54609399/137002737-9e16c00d-83bc-4a5e-b15c-5881d0be15ee.png)
 
 3 - Identificar espacios innecesarios sobre el código.
+ 
+  Escribimos en la barra de busqueda: Trailing Spaces
   
 ![image](https://user-images.githubusercontent.com/54609399/137002810-be01c8ea-6a7a-4d28-b8a1-5ecea3dc0126.png)
   
@@ -326,6 +380,8 @@ Ejemplo: Sobre las líneas que se hagan espacios se identificarán con color roj
 
 4 - Optimizar tamaños de archivos con minify, esto es comprimir el código y por ende el tamaño del archivo.
   
+ Escribimos en la barra de busqueda: JS & CSS Minifier (Minify)
+ 
 ![image](https://user-images.githubusercontent.com/54609399/137003002-56edf4da-9e52-45ba-a615-1d5d75bd649c.png)
 
 Ejemplo:
@@ -341,8 +397,13 @@ Esto nos genera un nuevo archivo con .main, el cual contiene el mismo código pe
 -- > PLUGINS EXTRA
   
 1 - Asigna iconos no solo archivos sino también a carpetas identificando que hace cada una.
+ 
+ Escribimos en la barra de busqueda: Material Icon Theme
   
 ![image](https://user-images.githubusercontent.com/54609399/137003414-06ae54d2-a932-4eeb-a5cd-a3c391799f87.png)
+ 
+ ![image](https://user-images.githubusercontent.com/54609399/168493630-5a543441-5d3b-480e-a419-f446f72dc9ae.png)
+
   
 Ejemplo:
 
@@ -350,6 +411,47 @@ Ejemplo:
 
 2 - A preferencia de cada quien.. el tema que guste.
   
-Ejemplo: Mi favorito es un tema retro neon SynthWave ‘84
+Ejemplo: Mi favorito es un tema retro neon SynthWave ‘84 (Para quienes les gusten los temas retro ochenteros)
+ 
+ Escribimos en la barra de busqueda: SynthWave '84
   
-![image](https://user-images.githubusercontent.com/54609399/137003586-9f2bfb67-0e64-4c85-a9c0-36ae38c80214.png)
+![image](https://user-images.githubusercontent.com/54609399/168493683-2c222e20-16d6-4e67-a456-6aeacb557a65.png)
+ 
+ Otras opciones:
+ 
+ Night Owl (Para quienes les gusten los tonos azules y la noche)
+ 
+ ![image](https://user-images.githubusercontent.com/54609399/168493756-ef60d93f-aaf1-4052-ab4a-d6ace3a3ed8a.png)
+ 
+ Monokai Pro (Para quienes les guste los temas clasicos de editores de código)
+ 
+ ![image](https://user-images.githubusercontent.com/54609399/168493734-6bafcff7-a764-4799-b896-4270f7af77fb.png)
+ 
+ Dracula Official (Para quienes les guste un tema dark no tan dark)
+ 
+ ![image](https://user-images.githubusercontent.com/54609399/168493705-344c5439-b379-44ee-9f28-26b0fa1d8f6c.png)
+
+ Pink-Cat-Boo Theme (Para quienes les gusten los colores pasteles)
+ 
+ ![image](https://user-images.githubusercontent.com/54609399/168493783-d6503ff0-0770-4ac6-bd5f-fc8d6a19c160.png)
+ 
+ 2077 theme  (Para quienes les gusten los temas CyberPunk)
+ 
+ ![image](https://user-images.githubusercontent.com/54609399/168493905-fb413331-e8d1-486a-8312-070582874505.png)
+
+ Nier: Automata Light Theme  (Para los fans de Nier Automata)
+ 
+ ![image](https://user-images.githubusercontent.com/54609399/168494043-99aa1115-ae46-4027-a209-94068f42eb95.png)
+
+ 
+ 
+ EXTRA: No es un tema pero si quieres tener un Nyan Cat pues...
+ 
+ ![image](https://user-images.githubusercontent.com/54609399/168493831-eb5927fc-2786-4bd3-828f-3d416ac5ab3c.png)
+
+ ![image](https://user-images.githubusercontent.com/54609399/168493842-6715e9d8-db00-4b08-9c07-654a9116f41a.png)
+
+
+ 
+ 
+ 
