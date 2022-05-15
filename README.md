@@ -99,15 +99,17 @@ También podemos acceder a las configuraciones desde de la siguiente manera:
 
 Ahora si procedemos a hacer el ajuste de Word Wrap, primero debemos escribir wrap en la parte superior del buscador, y luego asegurarnos que las siguientes opciones queden de esta manera:
 
-![image](https://user-images.githubusercontent.com/54609399/136996117-08d55d6c-d6f7-4058-9982-ad036c6d82f8.png)
+![image](https://user-images.githubusercontent.com/54609399/168491339-bd835016-f3f2-443a-b6f2-1b9941449cdc.png)
 
 2 - Activar Auto Save, esto hace que después de cada cambio en el código se guarde automáticamente.
 
-![image](https://user-images.githubusercontent.com/54609399/136996317-4d2c98af-3007-4069-bf22-37598fb00a6c.png)
+![image](https://user-images.githubusercontent.com/54609399/168491381-a701d1ec-a9db-4111-a557-aaa212caa856.png)
 
-3 - Bracket pair
+3 - Activar Bracket pair colorizer para remarcar llaves, parentencis, corchetes etc..
 
-![image](https://user-images.githubusercontent.com/54609399/167238211-6e86027e-54f6-4c99-b0af-c60136b69c6b.png)
+Volvemos a settings y escribimos bracket pair y la sopciones deben quedar de la siguiente manera:
+
+![image](https://user-images.githubusercontent.com/54609399/168491500-2550e08a-4580-4e44-ac68-997b696b3a2a.png)
 
 _____________________________________
 
