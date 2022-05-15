@@ -3,19 +3,27 @@ GUÍA INSTALACIÓN Y CONFIGURACION DE VISUAL STUDIO CODE EN WINDOWS Y LINUX
 Contenido:
 - INSTALACIÓN EN WINDOWS (10 Y 11)
 - INSTALACIÓN EN LINUX UBUNTU (20.04.4 LTS Y 22.04 LTS)
-- CONFIGURACIONES INICIALES Y BÁSICAS
-- PLUGINS ÚTILES PARA DESARROLLO WEB
+- CONFIGURACIONES INICIALES Y BÁSICAS (OPCIONAL)
+- PLUGINS ÚTILES PARA DESARROLLO WEB  (OPCIONAL)
 
 _____________________________________
 
-**** INSTALACIÓN EN WINDOWS 11 ****
+**** INSTALACIÓN EN WINDOWS 10 Y 11 ****
 _____________________________________
 
 1 - Descargar e instalar VS Code desde su página oficial https://code.visualstudio.com/
 
-2 - Una vez descargada la versión de nuestro sistema operativo, procedemos a instalar aplicando los siguiente pasos:
+![image](https://user-images.githubusercontent.com/54609399/168490547-49a9c190-4b62-4f15-9ad7-2718c16207a0.png)
+
+2 - Una vez descargado el instalador de nuestro sistema operativo, procedemos a instalar aplicando los siguiente pasos:
 
 ![image](https://user-images.githubusercontent.com/54609399/136992724-3c0327d7-4829-42bf-9e0c-3da8c149d202.png)
+
+Dejamos la ruta por defecto (NO CAMBIARLA) que nos muestre la siguiente ventna esta ruta cambia segun el PC de cada persona, pero siempre dejarla por defecto y solo dar Next.
+
+![image](https://user-images.githubusercontent.com/54609399/168490651-f9ca144e-ec95-426c-9369-a6673169d3eb.png)
+
+![image](https://user-images.githubusercontent.com/54609399/168490679-0b97b08f-4a37-4402-a242-0e24525957bf.png)
 
 3 - En el siguiente paso seleccionamos todos los checks, para poder ejecutar y abrir más fácilmente el VS code con archivos .html .css .js carpetas y demás
 
@@ -35,13 +43,13 @@ _____________________________________
 
 7 - Cuando el VS Code se ejecuta deberíamos tener una interfaz similar a esta.
 
-![image](https://user-images.githubusercontent.com/54609399/136994555-0cba2bb0-12b3-4466-ac6b-ee37dd7e4f3f.png)
+![image](https://user-images.githubusercontent.com/54609399/168490766-1d343af4-4555-4a7c-be30-b36c8e4db8ee.png)
 
-Con estos pasos concluimos el proceso de instalación, ahora procedemos hacer unas configuraciones iniciales.
+![image](https://user-images.githubusercontent.com/54609399/136994555-0cba2bb0-12b3-4466-ac6b-ee37dd7e4f3f.png)
 
 _____________________________________
 
-**** INSTALACIÓN EN LINUX UBUNTU 20.04.4 LTS ****
+**** INSTALACIÓN EN LINUX UBUNTU 20.04.4 LTS Y 22.04 LTS ****
 _____________________________________
 
 1 - Nos ubicamos en la pagina oficial de Visual Studio Code
@@ -81,14 +89,13 @@ _____________________________________
 _____________________________________
 
 
+1 - Iniciaremos configurando el Word Wrap, el cual hace que se aplique el estándar de no superar los 80 caracteres, y que el código se adapte al tamaño de la interfaz del VS code (como un responsive de Visual Studio).
 
-1 - Iniciaremos configurando el Word Wrap, el cual hace que se aplique el estándar de no superar los 80 caracteres, y que el código se adapte al tamaño de la interfaz del VS code.
-
-![image](https://user-images.githubusercontent.com/54609399/136995170-68537666-1f5b-4747-b168-4101c60ac26c.png)
+![image](https://user-images.githubusercontent.com/54609399/168490926-a0f74cff-a6a5-4e09-ae34-f3a7df19ddb6.png)
 
 También podemos acceder a las configuraciones desde de la siguiente manera:
 
-![image](https://user-images.githubusercontent.com/54609399/136995451-78f7540d-8b0a-4830-9c5a-8b2804f1d0e3.png)
+![image](https://user-images.githubusercontent.com/54609399/168490969-921490e6-1096-4d00-a1c8-ea5bfbcb958f.png)
 
 Ahora si procedemos a hacer el ajuste de Word Wrap, primero debemos escribir wrap en la parte superior del buscador, y luego asegurarnos que las siguientes opciones queden de esta manera:
 
