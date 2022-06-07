@@ -40,6 +40,14 @@ $ npm start
 Side information: To use the application in a special environment use ```lorem ipsum``` to start
 ***
 
+***
+***
+Give instructions on how to collaborate with your project.
+> Maybe you want to write a quote in this part. 
+> It should go over several rows?
+> This is how you do it.
+***
+
 
 1 - Descargar e instalar VS Code desde su página oficial https://code.visualstudio.com/
 
