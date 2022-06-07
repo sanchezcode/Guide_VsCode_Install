@@ -6,6 +6,8 @@ Contenido:
 - CONFIGURACIONES INICIALES Y BÁSICAS (OPCIONAL)
 - PLUGINS ÚTILES PARA DESARROLLO WEB  (OPCIONAL)
 
+***
+
 _____________________________________
 
 **** INSTALACIÓN EN WINDOWS 10 Y 11 ****
