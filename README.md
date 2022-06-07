@@ -102,6 +102,11 @@ Answer of the third question with *italic words*.
 
 ***
 
+***
+> **Nota** El siguiente capítulo puede ser, a veces, un poco difícil de seguir. Ten paciencia y acábalo. El despliegue es una parte importante del proceso en el desarrollo de un sitio web. Este capítulo está a mitad del tutorial para que tu mentor pueda ayudarte a conseguir que tu sitio web esté online, algo que puede ser un poco complicado. Así, aunque se te acabe el tiempo, podrás terminar el tutorial por tu cuenta.
+***
+
+
 
 1 - Descargar e instalar VS Code desde su página oficial https://code.visualstudio.com/
 
