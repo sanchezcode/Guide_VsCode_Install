@@ -29,6 +29,18 @@ A list of technologies used within the project:
 ***
 
 
+***
+A little intro about the installation. 
+```
+$ git clone https://example.com
+$ cd ../path/to/the/file
+$ npm install
+$ npm start
+```
+Side information: To use the application in a special environment use ```lorem ipsum``` to start
+***
+
+
 1 - Descargar e instalar VS Code desde su página oficial https://code.visualstudio.com/
 
 ![image](https://user-images.githubusercontent.com/54609399/168490547-49a9c190-4b62-4f15-9ad7-2718c16207a0.png)
