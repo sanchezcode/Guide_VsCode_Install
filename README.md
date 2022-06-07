@@ -18,7 +18,8 @@ _____________________________________
 
 
 ## Table of Contents
-<a name="general-info"></a>
+<a name="general-info">
+asdasdasdasdad</a>
 ### General Info
 
 1 - Descargar e instalar VS Code desde su página oficial https://code.visualstudio.com/
