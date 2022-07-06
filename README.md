@@ -20,7 +20,7 @@ _____________________________________
 
 ## Table of Contents
 <a name="general-info"></a>
-### General Info
+#### General Info
 
 ***
 A list of technologies used within the project:
