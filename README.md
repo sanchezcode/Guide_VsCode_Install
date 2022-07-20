@@ -1,125 +1,24 @@
-GUÍA INSTALACIÓN Y CONFIGURACION DE VISUAL STUDIO CODE EN WINDOWS Y LINUX (
-update coming soon)
-
-Contenido:
-- # INSTALACIÓN EN WINDOWS (10 Y 11)
-- ## NSTALACIÓN EN LINUX UBUNTU (20.04.4 LTS Y 22.04 LTS)
-- ### CONFIGURACIONES INICIALES Y BÁSICAS (OPCIONAL)
-- #### PLUGINS ÚTILES PARA DESARROLLO WEB  (OPCIONAL)
+GUÍA INSTALACIÓN Y CONFIGURACION DE VISUAL STUDIO CODE EN WINDOWS Y LINUX
 
 ***
 <details><summary> INSTALACIÓN EN WINDOWS 10 Y 11 
 </summary>
 
-1. [General Info](#general-info)
-
-
-## Table of Contents
-<a name="general-info"></a>
-#### General Info
-
-***
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
-***
-
-
-***
-A little intro about the installation. 
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
-***
-
-***
-***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
-***
-
-***
-## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
-### General Info
-***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
-## Technologies
-***
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
-## Installation
-***
-A little intro about the installation. 
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
-## Collaboration
-***
-
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
-## FAQs
-***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer of the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer of the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
-
-***
-
-***
-> **Nota** El siguiente capítulo puede ser, a veces, un poco difícil de seguir. Ten paciencia y acábalo. El despliegue es una parte importante del proceso en el desarrollo de un sitio web. Este capítulo está a mitad del tutorial para que tu mentor pueda ayudarte a conseguir que tu sitio web esté online, algo que puede ser un poco complicado. Así, aunque se te acabe el tiempo, podrás terminar el tutorial por tu cuenta.
-***
-
-
-
-1 - Descargar e instalar VS Code desde su página oficial https://code.visualstudio.com/
+1 - Descargar e instalar VS Code desde su página oficial: https://code.visualstudio.com/
 
 ![image](https://user-images.githubusercontent.com/54609399/168490547-49a9c190-4b62-4f15-9ad7-2718c16207a0.png)
 
-2 - Una vez descargado el instalador de nuestro sistema operativo, procedemos a instalar aplicando los siguiente pasos:
+2 - Una vez descargado el instalador para nuestro sistema operativo, procedemos a instalar aplicando los siguiente pasos:
 
 ![image](https://user-images.githubusercontent.com/54609399/136992724-3c0327d7-4829-42bf-9e0c-3da8c149d202.png)
 
-Dejamos la ruta por defecto (NO CAMBIARLA) que nos muestre la siguiente ventna esta ruta cambia segun el PC de cada persona, pero siempre dejarla por defecto y solo dar Next.
+Dejamos la ruta por defecto (NO CAMBIARLA), se recomienda siempre dejarlo en el disco local C para un óptimo funcionamiento.
 
 ![image](https://user-images.githubusercontent.com/54609399/168490651-f9ca144e-ec95-426c-9369-a6673169d3eb.png)
 
 ![image](https://user-images.githubusercontent.com/54609399/168490679-0b97b08f-4a37-4402-a242-0e24525957bf.png)
 
-3 - En el siguiente paso seleccionamos todos los checks, para poder ejecutar y abrir más fácilmente el VS code con archivos .html .css .js carpetas y demás
+3 - Seleccionamos todos los checks, para poder ejecutar y abrir más fácilmente en el VS Code los archivos .html .css .js entro otros incluyendo carpetas, con solo dar click derecho.
 
 ![image](https://user-images.githubusercontent.com/54609399/136993956-3d7a9c91-572c-4261-850a-90489828034d.png)
 
@@ -135,7 +34,7 @@ Dejamos la ruta por defecto (NO CAMBIARLA) que nos muestre la siguiente ventna e
 
 ![image](https://user-images.githubusercontent.com/54609399/136994386-e70a3609-9c78-4770-91cd-fd53be186288.png)
 
-7 - Cuando el VS Code se ejecuta deberíamos tener una interfaz similar a esta.
+7 - Cuando el VS Code se ejecuta deberíamos tener una interfaz similar a esta, en la cual se recomienda seleccionar Dark para el tema por defecto, (Si eres alguien rar@ puedes seleccionar el Light).
 
 ![image](https://user-images.githubusercontent.com/54609399/168490766-1d343af4-4555-4a7c-be30-b36c8e4db8ee.png)
 
