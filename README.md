@@ -2,7 +2,8 @@ GUÍA DE INSTALACIÓN Y CONFIGURACIÓN DE VISUAL STUDIO CODE EN WINDOWS Y LINUX
 
 ***
 <details><summary> INSTALACIÓN EN WINDOWS 10 Y 11 </summary>
-***
+
+ ***
  
 1 - Descargar e instalar VS Code desde su página oficial: https://code.visualstudio.com/
 
@@ -37,6 +38,8 @@ Dejamos la ruta por defecto (NO CAMBIARLA), se recomienda siempre dejarlo en el 
 7 - Cuando el VS Code se ejecuta deberíamos tener una interfaz similar a esta, en la cual se recomienda seleccionar Dark para el tema por defecto, (Si eres alguien rar@ puedes seleccionar el Light).
 
 ![image](https://user-images.githubusercontent.com/54609399/168490766-1d343af4-4555-4a7c-be30-b36c8e4db8ee.png)
+ 
+ Cuando cerramos la pestaña Get Started ya tenemos el VS Code listo para trabajar.
 
 ![image](https://user-images.githubusercontent.com/54609399/136994555-0cba2bb0-12b3-4466-ac6b-ee37dd7e4f3f.png)
 
