@@ -177,10 +177,8 @@ https://code.visualstudio.com/
 
 </details>
 
-_____________________________________
-
-**** CONFIGURACIONES INICIALES Y BÁSICAS ****
-_____________________________________
+<details><summary> CONFIGURACIONES INICIALES Y BÁSICAS 
+</summary>
 
 
 1 - Iniciaremos configurando el Word Wrap, el cual hace que se aplique el estándar de no superar los 80 caracteres, y que el código se adapte al tamaño de la interfaz del VS code (como un responsive de Visual Studio).
@@ -205,10 +203,10 @@ Volvemos a settings y escribimos bracket pair y la sopciones deben quedar de la 
 
 ![image](https://user-images.githubusercontent.com/54609399/168491500-2550e08a-4580-4e44-ac68-997b696b3a2a.png)
 
-_____________________________________
+ </details>
 
-**** PLUGINS UTILES PARA DESARROLLO WEB ****
-_____________________________________
+<details><summary> PLUGINS UTILES PARA DESARROLLO WEB
+</summary>
 
 1 - Para instalar los plugins debemos ubicarnos en la siguiente sección del VS Code
 
@@ -537,7 +535,7 @@ Ejemplo: Mi favorito es un tema retro neon SynthWave ‘84 (Para quienes les gus
  
  ![image](https://user-images.githubusercontent.com/54609399/168494043-99aa1115-ae46-4027-a209-94068f42eb95.png)
 
- 
+ <details>
  
  EXTRA: No es un tema pero si quieres tener un Nyan Cat pues...
  
