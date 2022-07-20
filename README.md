@@ -8,12 +8,12 @@ Contenido:
 - #### PLUGINS ÚTILES PARA DESARROLLO WEB  (OPCIONAL)
 
 ***
-
+<details><summary>
 _____________________________________
 
 **** INSTALACIÓN EN WINDOWS 10 Y 11 ****
 _____________________________________
-
+</summary>
 
 1. [General Info](#general-info)
 
@@ -145,6 +145,7 @@ Dejamos la ruta por defecto (NO CAMBIARLA) que nos muestre la siguiente ventna e
 
 ![image](https://user-images.githubusercontent.com/54609399/136994555-0cba2bb0-12b3-4466-ac6b-ee37dd7e4f3f.png)
 
+</details>
 _____________________________________
 
 **** INSTALACIÓN EN LINUX UBUNTU 20.04.4 LTS Y 22.04 LTS ****
