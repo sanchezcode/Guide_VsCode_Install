@@ -1,9 +1,9 @@
 GUÍA DE INSTALACIÓN Y CONFIGURACIÓN DE VISUAL STUDIO CODE EN WINDOWS Y LINUX
 
 ***
-<details><summary> INSTALACIÓN EN WINDOWS 10 Y 11 
-</summary>
-
+<details><summary> INSTALACIÓN EN WINDOWS 10 Y 11 </summary>
+***
+ 
 1 - Descargar e instalar VS Code desde su página oficial: https://code.visualstudio.com/
 
 ![image](https://user-images.githubusercontent.com/54609399/168490547-49a9c190-4b62-4f15-9ad7-2718c16207a0.png)
